@@ -47,6 +47,10 @@ print(str[1]) # i
 print(str[0:4]) # hi a
 print(str[-3:]) # all
 print(str[:2]) # hi
+
+x = 123
+str = f"number: {x}"
+print(str) # number: 123
 ```
 
 
@@ -108,4 +112,4 @@ for i in range(5):
 ```
 
 
-# 
+### 
