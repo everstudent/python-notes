@@ -72,6 +72,10 @@ print(lst + [9, 10]) # [1, 3, 6, 8, 9, 10]
 # adding values
 lst.append(11)
 print(lst) # [1, 3, 6, 8, 11]
+
+# generating list
+lst = [x**2 for x in range(1, 5)]
+print(lst) # [1, 4, 9, 16]
 ```
 
 
