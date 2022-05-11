@@ -71,7 +71,6 @@ print(lst) # [1, 3, 6, 8, 11]
 ```
 
 
-
 # If
 ```python
 if x > 1:
@@ -101,5 +100,12 @@ for i,v in enumerate(lst):
 # 0 : 1
 # 1 : 5
 # 2 : 8
+
+
+# prints 0,1,2,3,4: 
+for i in range(5):
+  print(i)
 ```
 
+
+# 
