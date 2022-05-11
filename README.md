@@ -75,6 +75,18 @@ print(lst) # [1, 3, 6, 8, 11]
 ```
 
 
+### Unpacking
+```python
+pck = [1,10]
+a,b = pck
+print(a)              # 1
+print(b)              # 10
+print(pck)            # [1, 10]
+print(*pck)           # 1 10
+print(pck[0], pck[1]) # 1 10
+```
+
+
 # If
 ```python
 if x > 1:
@@ -128,4 +140,9 @@ def test(*args, **keys):
 
 test('woa', a=1, b='!') # ('woa',)
                         # {'a': 1, 'b': '!'}
+
+
+# lambda
+l = lambda x: x ** 2
+print(l(2)) # 4
 ```
