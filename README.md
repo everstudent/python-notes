@@ -52,5 +52,38 @@ print(str[:2]) # hi
 
 ### Lists
 ```python
+lst = [1, 3, 6, 8]
+
+# length
+print(len(lst)) # 4
+
+# indexes
+print(lst) # [1, 3, 6, 8]
+print(lst[1]) # 3
+print(lst[1:3]) # [3, 6]
+
+# conncatenate
+print(lst + [9, 10]) # [1, 3, 6, 8, 9, 10]
+
+# adding values
+lst.append(11)
+print(lst) # [1, 3, 6, 8, 11]
+```
+
+
+
+# If
+```python
+if x > 1:
+  print('ok')
+elif x == 0:
+  print('zero')
+else:
+  print('notok')
+```
+
+
+# For
+```python
 
 ```
