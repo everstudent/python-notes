@@ -196,3 +196,16 @@ test('woa', a=1, b='!') # ('woa',)
 l = lambda x: x ** 2
 print(l(2)) # 4
 ```
+
+
+### Files
+```python
+# reading file
+with open('test.py') as f:
+  data = f.read()
+  print(data)
+
+# writing file
+with open('/tmp/test', 'w') as f:
+  f.write('hi')
+```
