@@ -112,4 +112,20 @@ for i in range(5):
 ```
 
 
-### 
+### Functions
+```python
+def sqr(x, p = 2):
+  return x**p
+
+print(sqr(8)) # 64
+print(sqr(p=3, x=2)) # 8
+
+
+# list of arguments
+def test(*args, **keys):
+  print(args)
+  print(keys)
+
+test('woa', a=1, b='!') # ('woa',)
+                        # {'a': 1, 'b': '!'}
+```
