@@ -107,6 +107,24 @@ print(st) # {1, 2, 3}
 ```
 
 
+### Dicts
+```python
+dct = {'name': 'Denys', 'level': 'good'}
+print(dct) # {'name': 'Denys', 'level': 'good'}
+
+
+dct = dict([('name', 'Denys'), ('level', 'good')])
+print(dct) # {'name': 'Denys', 'level': 'good'}
+
+
+for k, v in dct.items():
+  print(k, ':', v)
+
+# name : Denys
+# level : good
+```
+
+
 ### Unpacking
 ```python
 pck = [1,10]
