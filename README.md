@@ -85,5 +85,12 @@ else:
 
 # For
 ```python
+lst = [1,5,8]
 
+for n in lst:
+  print(n)
+
+# 1
+# 5
+# 8
 ```
