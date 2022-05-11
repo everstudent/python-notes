@@ -76,6 +76,11 @@ print(lst) # [1, 3, 6, 8, 11]
 # generating list
 lst = [x**2 for x in range(1, 5) if x > 2]
 print(lst) # [9, 16]
+
+# deleting
+lst = [1,2,3]
+del lst[1]
+print(lst) # [1, 3]
 ```
 
 
