@@ -84,6 +84,24 @@ print(lst) # [1, 3]
 ```
 
 
+### Tuples
+```python
+tpl = 1,2,3
+print(tpl) # (1, 2, 3)
+
+tpl = (1,2,3)
+print(tpl) # (1, 2, 3)
+
+tpl = (1,2,3)
+tpl[2] = 0 # ERROR
+```
+
+
+### Sets
+```python
+```
+
+
 ### Unpacking
 ```python
 pck = [1,10]
