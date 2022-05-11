@@ -99,6 +99,11 @@ tpl[2] = 0 # ERROR
 
 ### Sets
 ```python
+st = {1, 2, 3}
+print(st) # {1, 2, 3}
+
+st = {1, 2, 3, 3}
+print(st) # {1, 2, 3}
 ```
 
 
