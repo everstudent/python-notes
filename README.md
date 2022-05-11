@@ -93,4 +93,13 @@ for n in lst:
 # 1
 # 5
 # 8
+
+
+for i,v in enumerate(lst):
+  print(n)
+  
+# 0 : 1
+# 1 : 5
+# 2 : 8
 ```
+
