@@ -225,11 +225,11 @@ except ValueError as v:
 class MyClass:
   name = 'Denys' # class variable
 
-  def __init__(self, age):
+  def __init__(self, age): # constructor
     self.age = age # instance variable
 
-  def get_age(self):
-    return self.age
+  def get_age(self): # method
+    return self.age # return instance variable
 
 me = MyClass(37)
 print(me.name, me.get_age())
@@ -238,11 +238,24 @@ print(me.name, me.get_age())
 
 ### OOP
 ```python
-
+# inheritance
+class Iam(MyClass): # Iam inherits MyClasa
+  name = 'Denys'
 ```
 
-### 
+### Iterators
 ```python
+def down_from(max):
+  for index in range(max, 0, -1):
+    yield index
+
+for i in down_from(4):
+  print(i)
+  
+# 4
+# 3
+# 2
+# 1
 ```
 
 ### 
