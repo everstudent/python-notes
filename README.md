@@ -209,3 +209,33 @@ with open('test.py') as f:
 with open('/tmp/test', 'w') as f:
   f.write('hi')
 ```
+
+
+### Exceptions
+```python
+try:
+  raise ValueError('hi')
+except ValueError as v:
+  print(v) # catch exception and print it's error message
+```
+
+
+### 
+```python
+```
+
+### 
+```python
+```
+
+### 
+```python
+```
+
+### 
+```python
+```
+
+### 
+```python
+```
