@@ -220,12 +220,25 @@ except ValueError as v:
 ```
 
 
-### 
+### Classes
 ```python
+class MyClass:
+  name = 'Denys' # class variable
+
+  def __init__(self, age):
+    self.age = age # instance variable
+
+  def get_age(self):
+    return self.age
+
+me = MyClass(37)
+print(me.name, me.get_age())
 ```
 
-### 
+
+### OOP
 ```python
+
 ```
 
 ### 
