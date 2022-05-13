@@ -258,10 +258,23 @@ for i in down_from(4):
 # 1
 ```
 
-### 
+### Multi-threading
 ```python
-```
+import threading, time
 
-### 
-```python
+class AsyncHi(threading.Thread): # inherit class to allow multi-threading
+    message = 'no'
+
+    def run(self):
+        time.sleep(2)
+        self.message = 'hi'
+
+
+test = AsyncHi()
+test.start() # exec "run" in background
+print(test.message)
+
+time.sleep(3)
+
+print(test.message);
 ```
